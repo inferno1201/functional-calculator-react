@@ -19,9 +19,12 @@ function App() {
   };
 
   return (
+    <div className={styles.box}>
+      <h1> CALCULATOR</h1>
     <div className={styles.calculator}>
       <Display displayValue={calVal}></Display>
       <ButtonsContainer onButtonClick={onButtonClick}></ButtonsContainer>
+    </div>
     </div>
   );
 }

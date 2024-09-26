@@ -1,5 +1,18 @@
+* {
+  background-color: #ffd6e9;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+}
 .calculator {
-  border: 1px solid rgba(90, 90, 90);
+  border: 2px solid rgba(90, 90, 90);
+  border-color: rgb(255, 158, 212);
+  background-color: rgb(253, 245, 234);
   width: 200px;
   border-radius: 5px;
 }

@@ -2,10 +2,15 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color:rgb(253, 245, 234);
+  
 }
 
 .button {
   width: 45px;
   height: 45px;
   margin: 3px;
+  border-radius:5px;
+  border-color: rgb(255, 95, 121);
+  background-color: rgb(255, 209, 217);
 }
